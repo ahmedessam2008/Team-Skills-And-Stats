@@ -1,0 +1,200 @@
+/* For Global Style */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Start Container  */
+.container {
+  width: 80%;
+  margin: 10px auto;
+}
+li {
+  display: inline-block;
+  margin: 5px 10px;
+  cursor: pointer;
+}
+/* Start Header  */
+.header {
+  width: 100%;
+}
+.logo {
+  cursor: pointer;
+}
+/* start Quality  */
+.quality .container > div {
+  width: calc(100% / 3);
+  text-align: center;
+}
+/* Start About As  */
+.aboutus .img {
+  display: inline-block;
+  width: 500px;
+  height: 245px;
+}
+.aboutus .img img {
+  width: 100%;
+  height: 100%;
+}
+.aboutus .right-side {
+  margin-left: 44px;
+  align-self: baseline;
+  width: 50%;
+}
+/* Start Working */
+.works .container > div {
+  width: calc(97% / 3);
+  height: 100px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #f6f6f6;
+}
+.works .container > div:nth-of-type(1) {
+  background-color: #b33939;
+}
+.works .container > div:nth-of-type(2) {
+  background-color: #227093;
+}
+.works .container > div:nth-of-type(3) {
+  background-color: #218c74;
+}
+.works .container span {
+  font-size: 40px;
+  font-weight: bold;
+}
+/* Start Skills  */
+.skills .container {
+  flex-direction: column;
+}
+.progress {
+  width: 82%;
+  margin: 10px auto;
+  position: relative;
+}
+.progress span {
+  display: inline-block;
+  width: 57px;
+  height: 23px;
+}
+.progress progress {
+  display: block;
+  width: 80%;
+  height: 40px;
+  margin: 8px 38px;
+  appearance: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  position: relative;
+}
+progress[value]::-webkit-progress-bar {
+  background-color: #fff;
+  border-radius: 2px;
+}
+progress[value]::-webkit-progress-value {
+  background-color: #03a9f4;
+}
+.progress > div .html::after {
+  content: "60%";
+  position: absolute;
+  top: 8px;
+  right: calc(100% - 57%);
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+.progress > div .css::after {
+  content: "70%";
+  position: absolute;
+  top: 8px;
+  right: calc(100% - 67%);
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+.progress > div .jave::after {
+  content: "80%";
+  position: absolute;
+  top: 8px;
+  right: calc(100% - 77%);
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+.progress > div .php::after {
+  content: "65%";
+  position: absolute;
+  top: 8px;
+  right: calc(100% - 62%);
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+.progress > div .python::after {
+  content: "85%";
+  position: absolute;
+  top: 8px;
+  right: calc(100% - 82%);
+  width: 26px;
+  height: 26px;
+  color: #fff;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+/* ###################################################### */
+/* Start Our Framwork */
+.lst-style {
+  list-style: none;
+  margin: 0;
+}
+.bold {
+  font-weight: bold;
+}
+.flex-sbetween-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.font-size-18 {
+  font-size: 18px;
+}
+.page-color {
+  background-color: #f6f6f6;
+}
+.marg-bott-15 {
+  margin-bottom: 15px;
+}
+.fon-color {
+  color: #636367;
+}
+.fon-color2 {
+  color: #c8c8c8;
+}
+.blue-color {
+  color: #03a9f4;
+}
+.padding-top-bott {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.padding-all-15 {
+  padding: 15px;
+}
+.width-100 {
+  width: 100%;
+}
